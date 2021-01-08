@@ -1,0 +1,21 @@
+C O I S A S  I M P O R T A N T E S  D E  A N O T A R
+=====================================================
+toLocaleString{
+    Ele funciona como se você estivesse formatando alguma localidade especifica.
+    Nessa aula eu aprendi sobre o currency, que é o formatador de moedas, mas é claro que tem vários outros que por agora eu não vou me aprofundar tanto.
+    código{
+        var n1 = 1545.5
+        n1.toLocaleString('pt-BR', {style : 'currency', currency : 'BRL'})
+    }
+    ele transforma o que era 1545.5 em R$ 1.545,50
+    
+}
+toFixed(){
+    Possibilita você escrever esse número em uma determinada quantidade de casas decimais.
+    código{
+    var n1 = 1545.5
+    n1.toFixed(2)
+    }
+    ele transforma o que era 1545.5 em 1545.50
+    
+}
