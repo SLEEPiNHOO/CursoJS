@@ -4,11 +4,34 @@ Operadores Aritiméticos{
     5 - 2 -> 3
     5 * 2 -> 10
     5 / 2 -> 2.5
-    5 % 2 -> 1 //resto da divisão
+    5 % 2 -> 1  //resto da divisão
     5 ** 2 -> 25
 }
+=========================================================================================
 Ordem de precedência{
-    ()
+    () //parenteses de fato
     ** /  %
     + -
+}
+=========================================================================================
+Atribuição simples{
+    var a = 5 + 3  //atribuindo o valor de 5 + 3 a variavel "a"
+    var b = a % 5  //atribuindo o resto da divisão entre "a"(definido na linha acima) e 5
+    var c = 5 * b ** 2  //atribuindo "b" ao quadrado vezes 5
+    var d = 10 - a / 2  // atribuindo "a" dividido por 2 menos 10
+    var e = 6 * 2 / d  // atribuindo 6 vezes 2 dividido por "d"
+    var f = b % e + 4 / e  // atribuindo resto da divisão de b e "e" mais 4 dividido por "e"
+}
+=========================================================================================
+Auto-atribuições{
+    // vai definindo o valor da variavel com base no ultimo valor dela
+    var n = 3
+    n = n + 4  //somando o valor anterior de n a 4, esse resultado de n + 4 vai ser o novo valor de n, potanto, n = 7
+    n += 4  // simplificando o comando acima
+}
+Incremento{
+    considere: var x = 5
+    x++ //atribuindo mais um valor a variavel x, ent fica x = 6
+    x-- //tirando um valor de x ent fica x = 5(dnv)
+    // funciona com --x ou ++x(faz diferença para o que você for codar)
 }
