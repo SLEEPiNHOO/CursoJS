@@ -1,0 +1,9 @@
+Operadores Relacionais{
+    // Quando a expressão está correta, o programa retorna o valor true, caso contrário, ele irá retornar o valor false
+    5 > 2 // a expressão está correta, o programa irá retornar um valor true
+    7 < 4 //a expressão está errada, o programa irá retornar o valor false
+    8 <= 8 //perceba que a expressão está dando 2 alternativas, maior ou igual, uma das alternativas está correta, logo, o programa irá retornar um valor true
+    9 <= 7 //mesmo caso da anterior, só que agora nenhuma das alternativas estão corretas, o programa irá retornar um valor true
+    5 == 5 //a expressão está correta, o programa irá retornar um valor true
+    4 != 4 //a expressão está errada, o programa irá retornar um valor true
+}
