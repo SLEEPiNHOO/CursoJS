@@ -39,12 +39,13 @@
     </p>
     <hr>
     <p>Aqui vai o resultado</p>
-    <div>Clica em mim</div>
+    <p>Você escreveu:</p>
     <script>
       // aqui vai o código Javascript
-      window.alert("Iniciando estudos com a DOM")
-      window.document.write(window.navigator.appName)
-      var p1 = window.document.getElementsByTagName("p")[1]
+      var corpo = window.document.body //definindo a variavel "corpo" como a tag body 
+      var frase = window.prompt("Digita algo:") //guardando a variavel da frase
+      corpo.style.backgroundColor = "black" //mudando a cor do fundo
+      window.document.write(frase) //escrevendo o que o usuário digitou na tela
     </script>
   </body>
 </html>

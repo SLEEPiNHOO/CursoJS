@@ -1,0 +1,3 @@
+memorizar{
+    procurar referencias de "getElementsByAlgumaCoisa"
+}
