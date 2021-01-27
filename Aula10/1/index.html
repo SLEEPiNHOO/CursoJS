@@ -5,25 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Olá, Mundo!</title>
     <style>
-        body{
-            background-color: rgb(68, 125, 199);
-            color: white;
-            font: normal 18pt Arial;
-        }
-        div#area{
-            font: normal 25pt Arial;
-            background: green;
-            color: white;
-            width: 200px;
-            height: 100px;
-            text-align: center;
-            line-height: 100px;
-        }
+      body {
+        background-color: rgb(68, 125, 199);
+        color: white;
+        font: normal 18pt Arial;
+      }
+      div#area {
+        font: normal 25pt Arial;
+        background: green;
+        color: white;
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+      }
     </style>
   </head>
   <body>
     <h1>Olá, Mundo</h1>
     <h2>Página Inicial</h2>
+    <hr />
+    <h3>Aqui vai o resultado</h3>
+    <div id="area">Chaach</div>
     <hr />
     <h3>Curso de Javascript</h3>
     <p>
@@ -33,7 +36,8 @@
     <hr />
     <h3>Não achou o que está procurando?</h3>
     <p>
-      01. Consulte o console da página, para checar se o programa está funcionando corretamente.
+      01. Consulte o console da página, para checar se o programa está
+      funcionando corretamente.
     </p>
     <p>
       02. Tente olhar no console da página, as vezes o experimento é feito por
@@ -46,31 +50,25 @@
       Github:
       <a href="https://github.com/SLEEPiNHOO">Clique aqui!</a>
     </p>
-    <hr>
-    <h3>Aqui vai o resultado</h3>
-    <div id="area">
-        Chaach
-    </div>
-    
+
     <script>
       //bonus kk
-      window.alert("Um amiguinho quer brincar com vc")
+      window.alert("Um amiguinho quer brincar com vc");
       // aqui vai o código Javascript
-      var a = window.document.getElementById('area')
-      a.addEventListener('click', clicar)
-      a.addEventListener("mouseenter", entrar)
-      a.addEventListener("mouseout", sair)
+      var a = window.document.getElementById("area");
+      a.addEventListener("click", clicar);
+      a.addEventListener("mouseenter", entrar);
+      a.addEventListener("mouseout", sair);
       function clicar() {
-           a.innerText = "clicou kk"
-           a.style.background = "red"
+        a.innerText = "clicou kk";
+        a.style.background = "red";
       }
       function entrar() {
-           a.innerText = 'entrou'
+        a.innerText = "entrou";
       }
       function sair() {
-           a.innerText = "saiu"
+        a.innerText = "saiu";
       }
-
     </script>
   </body>
 </html>
