@@ -51,8 +51,23 @@
     <div id="area">
         Chaach
     </div>
+    
     <script>
       // aqui vai o código Javascript
+      var a = window.document.getElementById('area')
+      a.addEventListener('click', clicar)
+      a.addEventListener("mouseenter", entrar)
+      a.addEventListener("mouseout", sair)
+      function clicar() {
+           a.innerText = "clicou kk"
+           a.style.background = "red"
+      }
+      function entrar() {
+           a.innerText = 'entrou'
+      }
+      function sair() {
+           a.innerText = "saiu"
+      }
 
     </script>
   </body>
