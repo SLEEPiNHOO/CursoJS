@@ -1,0 +1,32 @@
+Eventos DOM
+===================================================
+considere os códigos aqui{
+    <style>
+       div#area{
+            font: normal 25pt Arial;
+            background: green;
+            color: white;
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }    
+    </style>
+
+    <div id="area">
+        Chaach
+    </div>
+}
+====================================================
+eventos com o mouse{
+    mouseenter = quando o mouse entra dentro da area da DIV
+    mousemove = quando o mouse se move dentro da area da DIV
+    mousedown = quando você pressiona(ou segura) o botão do mouse dentro da area da DIV
+    mouseup = quando você solta o botão do mouse dentro da area da DIV
+    click = quando você clica com o botão do mouse dentro da area da DIV
+    mouseout = quando você move o mouse para fora da area da DIV
+}
+========================================================
+lembrete{
+    pesquisar os eventos da DOM
+}
