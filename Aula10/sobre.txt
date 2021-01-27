@@ -28,5 +28,5 @@ eventos com o mouse{
 }
 ========================================================
 lembrete{
-    pesquisar os eventos da DOM
+    pesquisar os eventos da DOM(especialmente os touch events)
 }
